@@ -1,0 +1,135 @@
+
+		body{ 
+			background-color: #DBEAF7;
+			font-family: Verdana, Geneva, sans-serif;
+			font-size: 105%;
+
+		 }
+		* {
+			box-sizing: border-box;
+
+		 }
+		ul { 
+		list-style: none; }
+
+		#bottom, ul a:link, a:visited {
+			text-decoration: none;
+			background-color: MintCream;
+			border: 1px solid navy;
+			color: navy;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		#stuff {
+			background: white;
+			position: relative;
+			padding: 10px;
+			margin: auto;
+			width: 90%
+			
+		}
+		#fun {
+			background: #62284B;
+			position: relative;
+			bottom: 81px;
+			left: 40px;
+			width: 25%
+
+		}
+		#fun2 {
+			background: DodgerBlue;
+			position: absolute;
+			top: 15px;
+  			left: 15px;
+		}
+		a:hover, a:active {
+			background-color: DodgerBlue;
+			color: black;
+		}
+		h1.top {
+			color: blue;
+			font-size: 40px;
+			width: 40%;
+			font-weight: bold;
+			font-style: italic;
+			opacity: 0.6;
+			text-align: right;
+		}
+		h2 {
+			color: #343354;
+			font-size: 30px;
+			width: 40%;
+			text-align: center;
+		}
+		.CornflowerBlue {
+			color : CornflowerBlue;
+			text-transform: lowercase;
+			text-align: left;
+			width: 1000px;
+		}
+		ol > .highlight {
+			color : #62284B;
+			font-weight: bold;
+			font-family: 
+		}
+		#tables {
+			background-color: gainsboro;
+			color: black;
+			padding: 20px;
+			margin: auto;
+			width: 80%;
+		}
+		#weather {
+			background-color: DarkSlateGrey;
+			color: LightGrey;
+			font-size: : 20px;
+			width: 80px;
+			clear: both;
+		}
+		.box {
+			background-color: white;
+ 			padding: 10px;
+  			border: 5px solid black;
+  			width: 300px;
+			height: 50px;
+  			margin-top: 10px;
+  			overflow: auto;
+  			margin-left: auto;
+  			margin-right: auto;  
+  			box-sizing: content-box;
+
+		}
+		.b1 {
+			float: left;
+			margin: 10px;
+		}
+		#pics {
+			width: 50%;
+			float: left;
+			margin: auto;
+
+		}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+  #tables {
+			background-color: gainsboro;
+			color: black;
+			padding: 20px;
+			margin: 20px;
+			width: 80%;
+		}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #tables {
+			width: 90%;
+		}
+}
+
+
+
+
